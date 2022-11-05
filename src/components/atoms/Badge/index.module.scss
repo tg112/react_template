@@ -1,0 +1,47 @@
+@use '../../../styles/variables.scss';
+
+.root {
+  color: variables.$white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: 'Noto Sans JP';
+  border-radius: 8px;
+  border: none;
+  font-size: 12px;
+  height: 30px;
+  width: fit-content;
+  padding: 0 13px;
+}
+
+// 優先度付きボタン
+.priority {
+  gap: 12px;
+}
+
+// bg color
+.red {
+  background-color: variables.$high-priority;
+}
+
+.yellow {
+  background-color: variables.$middle-priority;
+}
+
+.priority-gray {
+  background-color: variables.$low-priority;
+}
+
+.green {
+  background-color: variables.$green;
+}
+
+.blue {
+  background-color: variables.$blue;
+}
+
+.white {
+  background-color: variables.$white;
+  color: variables.$blue;
+}

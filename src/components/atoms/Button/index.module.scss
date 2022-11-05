@@ -1,0 +1,25 @@
+@use '../../../styles/variables.scss';
+
+.root {
+  color: variables.$white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: 'Noto Sans JP';
+  border-radius: 8px;
+  border: none;
+  font-size: 12px;
+  width: 140px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.gray {
+  background-color: variables.$gray;
+}
+
+.blue {
+  background-color: variables.$blue2;
+}
