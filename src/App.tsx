@@ -1,7 +1,5 @@
-import { Badge } from './components/atoms';
+import Sample from './components/Sample';
 
-function App() {
-  return <Badge label="3.2 実用的な社会支援" color="white" />;
-}
+const App = () => <Sample />;
 
 export default App;
